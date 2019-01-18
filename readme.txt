@@ -1,3 +1,5 @@
+THIS ISN'T THE ORIGINAL PRELOADER'S REPOSITORY
+
 === Preloader ===
 Contributors: Alobaidi
 Donate link: http://pay.wp-plugins.in/donations

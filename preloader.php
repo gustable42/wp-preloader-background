@@ -141,7 +141,7 @@ function WPTime_plugin_preloader_css(){
 	}else{
 		$background_color = '#FFFFFF';
 	}
-		
+
 	if( get_option('wptpreloader_image') ){
 		$preloader_image = get_option('wptpreloader_image');
 	}else{
@@ -184,7 +184,7 @@ function WPTime_plugin_preloader_css(){
 			 	left: 0;
 			 	right: 0;
 			 	bottom: 0;
-				background:url(<?php echo $preloader_image; ?>) no-repeat <?php echo $background_color; ?> 50%;
+				background:url(<?php echo $preloader_image; ?>) no-repeat rgba(0,0,0,0) 50%;
 				-moz-background-size:<?php echo $image_width; ?>px <?php echo $image_height; ?>px;
 				-o-background-size:<?php echo $image_width; ?>px <?php echo $image_height; ?>px;
 				-webkit-background-size:<?php echo $image_width; ?>px <?php echo $image_height; ?>px;
